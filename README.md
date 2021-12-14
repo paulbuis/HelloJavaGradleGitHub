@@ -1,15 +1,25 @@
 This project is intended as a template for sharing Java projects
-with students in Ball State University's CS 121 course.
+with students in Ball State University's CS 121 course where
+[JetBrains IntelliJ IDEA Community Edition)(https://www.jetbrains.com/idea/download/).
+is used as an IDE.
+
+The IDE is cross-platform and this project is configured to use
+Gradle (installed on the student's machine by IntelliJ) which
+ensures a cross-platform build and test environment is available.
+
+Note that the `.idea` directory with ItelliJ-specific settings
+is *not* part of the repository since it would contain details
+like the file system path to various components that one should
+expect will vary from one student's machine to the next.
 
 From the student's side, all they need to do in
-JetBrains IntelliJ IDEA Community Edition
-is use the menu sequence
+IntelliJ is use the menu sequence
 
 ```
 File -> New -> Project from Version Control ...
 ```
 When the dialog `Get from Version Control` pops up
-and enter the URL for this repository:
+they need to enter the URL for this repository:
 `https://github.com/paulbuis/HelloJavaGradleGitHub.git`
 
 Then, to run the project they to use the `Project` panel
