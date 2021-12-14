@@ -4,8 +4,10 @@ with students in Ball State University's CS 121 course where
 is used as an IDE.
 
 The IDE is cross-platform and this project is configured to use
-Gradle (installed on the student's machine by IntelliJ) which
-ensures a cross-platform build and test environment is available.
+[Gradle](https://gradle.org/). The `gradlew` scripts will install an appropriate version of gradle
+into a subdirectory of the users home directory (if a copy is not already present) to
+ensure a cross-platform build and test environment is available. Note that
+students do not need to install or configure Gradle.
 
 Note that the `.idea` directory with ItelliJ-specific settings
 is *not* part of the repository since it would contain details
